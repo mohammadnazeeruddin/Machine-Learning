@@ -1,0 +1,12 @@
+students = [('rama',550,),
+            ('venkat',559,),
+            ('naga',405),
+            ('hari',410),
+            ('krishna',425)]
+sorted_records=sorted(students)
+for rec in sorted_records:
+    print (rec)
+max_average=max(students,key=lambda x:x[0])
+print ('highest score:',max_average)
+#min_average=min(students,key=lambda x:x[0])
+#print ('highest score:',min_average)
